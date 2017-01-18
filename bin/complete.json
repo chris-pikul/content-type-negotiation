@@ -1,0 +1,801 @@
+[
+  {
+    "mime": "video/3gpp",
+    "extension": "3gp",
+    "signature": [
+      [0, 0, 0, 20, 102, 116, 121, 112],
+      [0, 0, 0, 20, 102, 116, 121, 112],
+      [0, 0, 0, 32, 102, 116, 121, 112],
+      [0, 0, 0, 32, 102, 116, 121, 112]
+    ]
+  },
+  {
+    "mime": "video/mp4",
+    "extension": "mp4",
+    "signature": [
+      [0, 0, 0, 20, 102, 116, 121, 112, 105, 115, 111, 109],
+      [0, 0, 0, 24, 102, 116, 121, 112],
+      [0, 0, 0, 28, 102, 116, 121, 112]
+    ]
+  },
+  {
+    "mime": "video/3gpp2",
+    "extension": "3g2",
+    "signature": [
+      [0, 0, 0, 20, 102, 116, 121, 112],
+      [0, 0, 0, 32, 102, 116, 121, 112]
+    ]
+  },
+  {
+    "mime": "video/x-m4v",
+    "extension": "m4v",
+    "signature": [0, 0, 0, 24, 102, 116, 121, 112]
+  },
+  {
+    "mime": "audio/mp4",
+    "extension": "m4a",
+    "signature": [0, 0, 0, 32, 102, 116, 121, 112, 77, 52, 65]
+  },
+  {
+    "mime": "image/x-icon",
+    "extension": "ico",
+    "signature": [0, 0, 1, 0]
+  },
+  {
+    "mime": "application/x-futuresplash",
+    "extension": "spl",
+    "signature": [0, 0, 1, 0]
+  },
+  {
+    "mime": "video/mpeg",
+    "extension": "mpg",
+    "signature": [
+      [0, 0, 1, 179],
+      [0, 0, 1, 186]
+    ]
+  },
+  {
+    "mime": "video/x-ms-vob",
+    "extension": "vob",
+    "signature": [0, 0, 1, 186]
+  },
+  {
+    "mime": "application/vnd.lotus-1-2-3",
+    "extension": "123",
+    "signature": [0, 0, 26, 0, 5, 16, 4]
+  },
+  {
+    "mime": "application/vnd.quark.quarkxpress",
+    "extension": "qxd",
+    "signature": [
+      [0, 0, 73, 73, 88, 80, 82],
+      [0, 0, 77, 77, 88, 80, 82]
+    ]
+  },
+  {
+    "mime": "application/x-font-ttf",
+    "extension": "ttf",
+    "signature": [0, 1, 0, 0, 0]
+  },
+  {
+    "mime": "application/x-msmoney",
+    "extension": "mny",
+    "signature": [0, 1, 0, 0, 77, 83, 73, 83, 65, 77, 32, 68, 97, 116, 97, 98, 97, 115, 101]
+  },
+  {
+    "mime": "application/x-msaccess",
+    "extension": "mdb",
+    "signature": [0, 1, 0, 0, 83, 116, 97, 110, 100, 97, 114, 100, 32, 74, 101, 116, 32, 68, 66]
+  },
+  {
+    "mime": "video/x-fli",
+    "extension": "fli",
+    "signature": [0, 17]
+  },
+  {
+    "mime": "image/x-rgb",
+    "extension": "rgb",
+    "signature": [1, 218, 1, 1, 0, 3]
+  },
+  {
+    "mime": "application/xml-dtd",
+    "extension": "dtd",
+    "signature": [7, 100, 116, 50, 100, 100, 116, 100]
+  },
+  {
+    "mime": "image/x-pcx",
+    "extension": "pcx",
+    "signature": [
+      [10, 2, 1, 1],
+      [10, 3, 1, 1],
+      [10, 5, 1, 1]
+    ]
+  },
+  {
+    "mime": "application/msword",
+    "extension": ["doc", "dot"],
+    "signature": [
+      [13, 68, 79, 67],
+      [207, 17, 224, 161, 177, 26, 225, 0],
+      [208, 207, 17, 224, 161, 177, 26, 225],
+      [219, 165, 45, 0]
+    ]
+  },
+  {
+    "mime": "application/vnd.ms-works",
+    "extension": ["wks", "wps"],
+    "signature": [
+      [14, 87, 75, 83],
+      [255, 0, 2, 0, 4, 4, 5, 84],
+      [208, 207, 17, 224, 161, 177, 26, 225]
+    ]
+  },
+  {
+    "mime": "application/vnd.nitf",
+    "extension": "ntf",
+    "signature": [
+      [26, 0, 0],
+      [48, 49, 79, 82, 68, 78, 65, 78],
+      [78, 73, 84, 70, 48]
+    ]
+  },
+  {
+    "mime": "application/vnd.lotus-notes",
+    "extension": "nsf",
+    "signature": [
+      [26, 0, 0, 4, 0, 0],
+      [78, 69, 83, 77, 26, 1]
+    ]
+  },
+  {
+    "mime": "application/x-freearc",
+    "extension": "arc",
+    "signature": [
+      [26, 2],
+      [26, 3],
+      [26, 4],
+      [26, 8],
+      [26, 9],
+      [65, 114, 67, 1]
+    ]
+  },
+  {
+    "mime": "video/webm",
+    "extension": "webm",
+    "signature": [26, 69, 223, 163]
+  },
+  {
+    "mime": "video/x-matroska",
+    "extension": "mkv",
+    "signature": [26, 69, 223, 163, 147, 66, 130, 136]
+  },
+  {
+    "mime": "application/x-msdownload",
+    "extension": ["msi", "com", "dll", "exe"],
+    "signature": [
+      [35, 32],
+      [208, 207, 17, 224, 161, 177, 26, 225],
+      [77, 90],
+      [232],
+      [233],
+      [235]
+    ]
+  },
+  {
+    "mime": "audio/silk",
+    "extension": "sil",
+    "signature": [35, 33, 83, 73, 76, 75, 10]
+  },
+  {
+    "mime": "application/postscript",
+    "extension": "eps",
+    "signature": [
+      [37, 33, 80, 83, 45, 65, 100, 111],
+      [197, 208, 211, 198]
+    ]
+  },
+  {
+    "mime": "application/pdf",
+    "extension": "pdf",
+    "signature": [37, 80, 68, 70]
+  },
+  {
+    "mime": "application/vnd.fdf",
+    "extension": "fdf",
+    "signature": [37, 80, 68, 70]
+  },
+  {
+    "mime": "application/mac-binhex40",
+    "extension": "hqx",
+    "signature": [40, 84, 104, 105, 115, 32, 102, 105]
+  },
+  {
+    "mime": "text/plain",
+    "extension": "log",
+    "signature": [null, 42, 42, 42, 32, 32, 73, 110, 115]
+  },
+  {
+    "mime": "application/vnd.rn-realmedia",
+    "extension": "rm",
+    "signature": [46, 82, 77, 70]
+  },
+  {
+    "mime": "application/vnd.rn-realmedia-vbr",
+    "extension": "rmvb",
+    "signature": [46, 82, 77, 70]
+  },
+  {
+    "mime": "audio/x-pn-realaudio",
+    "extension": ["ra", "ram"],
+    "signature": [
+      [46, 82, 77, 70, 0, 0, 0, 18],
+      [46, 114, 97, 253, 0],
+      [114, 116, 115, 112, 58, 47, 47]
+    ]
+  },
+  {
+    "mime": "audio/basic",
+    "extension": "au",
+    "signature": [
+      [46, 115, 110, 100],
+      [100, 110, 115, 46]
+    ]
+  },
+  {
+    "mime": "application/vnd.epson.msf",
+    "extension": "msf",
+    "signature": [47, 47, 32, 60, 33, 45, 45, 32, 60, 109, 100, 98, 58, 109, 111, 114, 107, 58, 122]
+  },
+  {
+    "mime": "application/vnd.ms-pki.seccat",
+    "extension": "cat",
+    "signature": [48]
+  },
+  {
+    "mime": "video/x-ms-asf",
+    "extension": ["asf", "asx"],
+    "signature": [
+      [48, 38, 178, 117, 142, 102, 207, 17],
+      [60]
+    ]
+  },
+  {
+    "mime": "audio/x-ms-wma",
+    "extension": "wma",
+    "signature": [48, 38, 178, 117, 142, 102, 207, 17]
+  },
+  {
+    "mime": "video/x-ms-wmv",
+    "extension": "wmv",
+    "signature": [48, 38, 178, 117, 142, 102, 207, 17]
+  },
+  {
+    "mime": "application/x-mswrite",
+    "extension": "wri",
+    "signature": [
+      [49, 190],
+      [50, 190],
+      [190, 0, 0, 0, 171]
+    ]
+  },
+  {
+    "mime": "application/x-7z-compressed",
+    "extension": "7z",
+    "signature": [55, 122, 188, 175, 39, 28]
+  },
+  {
+    "mime": "image/vnd.adobe.photoshop",
+    "extension": "psd",
+    "signature": [56, 66, 80, 83]
+  },
+  {
+    "mime": "application/xml",
+    "extension": "xml",
+    "signature": [60, 63, 120, 109, 108, 32, 118, 101, 114, 115, 105, 111, 110, 61, 34, 49, 46, 48, 34, 63, 62]
+  },
+  {
+    "mime": "application/vnd.framemaker",
+    "extension": "fm",
+    "signature": [60, 77, 97, 107, 101, 114, 70, 105]
+  },
+  {
+    "mime": "application/vnd.mif",
+    "extension": "mif",
+    "signature": [
+      [60, 77, 97, 107, 101, 114, 70, 105],
+      [86, 101, 114, 115, 105, 111, 110, 32]
+    ]
+  },
+  {
+    "mime": "application/gpx+xml",
+    "extension": "gpx",
+    "signature": [60, 103, 112, 120, 32, 118, 101, 114, 115, 105, 111, 110, 61, 34, 49, 46]
+  },
+  {
+    "mime": "application/winhlp",
+    "extension": "hlp",
+    "signature": [
+      [63, 95, 3, 0],
+      [76, 78, 2, 0]
+    ]
+  },
+  {
+    "mime": "image/vnd.dwg",
+    "extension": "dwg",
+    "signature": [
+      65,
+      67,
+      49,48]
+  },
+  {
+    "mime": "application/vnd.lotus-organizer",
+    "extension": "org",
+    "signature": [
+      65,
+      79,
+      76,
+      86,
+      77,
+      49,
+      48,48]
+  },
+  {
+    "mime": "text/x-vcard",
+    "extension": "vcf",
+    "signature": [66, 69, 71, 73, 78, 58, 86, 67]
+  },
+  {
+    "mime": "application/octet-stream",
+    "extension": ["bin", "dms", "mar"],
+    "signature": [
+      [66, 76, 73, 50, 50, 51],
+      [68, 77, 83, 33],
+      [77, 65, 82, 49, 0],
+      [77, 65, 82, 67],
+      [77, 65, 114, 48, 0]
+    ]
+  },
+  {
+    "mime": "image/bmp",
+    "extension": "bmp",
+    "signature": [66, 77]
+  },
+  {
+    "mime": "application/x-mobipocket-ebook",
+    "extension": "prc",
+    "signature": [66, 79, 79, 75, 77, 79, 66, 73]
+  },
+  {
+    "mime": "application/x-bzip2",
+    "extension": "bz2",
+    "signature": [66, 90, 104]
+  },
+  {
+    "mime": "application/x-iso9660-image",
+    "extension": "iso",
+    "signature": [67, 68, 48, 48, 49]
+  },
+  {
+    "mime": "application/mac-compactpro",
+    "extension": "cpt",
+    "signature": [
+      [67, 80, 84, 55, 70, 73, 76, 69],
+      [67, 80, 84, 70, 73, 76, 69]
+    ]
+  },
+  {
+    "mime": "application/x-shockwave-flash",
+    "extension": "swf",
+    "signature": [
+      [67, 87, 83],
+      [70, 87, 83],
+      [90, 87, 83]
+    ]
+  },
+  {
+    "mime": "application/x-cdlink",
+    "extension": "vcd",
+    "signature": [69, 78, 84, 82, 89, 86, 67, 68]
+  },
+  {
+    "mime": "image/vnd.ms-modi",
+    "extension": "mdi",
+    "signature": [69, 80]
+  },
+  {
+    "mime": "video/x-flv",
+    "extension": "flv",
+    "signature": [70, 76, 86]
+  },
+  {
+    "mime": "audio/x-aiff",
+    "extension": "aiff",
+    "signature": [70, 79, 82, 77, 0]
+  },
+  {
+    "mime": "message/rfc822",
+    "extension": "eml",
+    "signature": [
+      [70, 114, 111, 109],
+      [82, 101, 116, 117, 114, 110, 45, 80],
+      [88, 45]
+    ]
+  },
+  {
+    "mime": "image/gif",
+    "extension": "gif",
+    "signature": [71, 73, 70, 56]
+  },
+  {
+    "mime": "image/tiff",
+    "extension": ["tif", "tiff"],
+    "signature": [
+      [73, 32, 73],
+      [73, 73, 42, 0],
+      [77, 77, 0, 42],
+      [77, 77, 0, 43]
+    ]
+  },
+  {
+    "mime": "audio/mpeg",
+    "extension": "mp3",
+    "signature": [73, 68, 51]
+  },
+  {
+    "mime": "application/vnd.ms-cab-compressed",
+    "extension": "cab",
+    "signature": [
+      [73, 83, 99, 40],
+      [77, 83, 67, 70]
+    ]
+  },
+  {
+    "mime": "application/vnd.ms-htmlhelp",
+    "extension": "chm",
+    "signature": [73, 84, 83, 70]
+  },
+  {
+    "mime": "application/java-archive",
+    "extension": "jar",
+    "signature": [
+      [74, 65, 82, 67, 83, 0],
+      [80, 75, 3, 4],
+      [80, 75, 3, 4, 20, 0, 8, 0],
+      [95, 39, 168, 137]
+    ]
+  },
+  {
+    "mime": "application/x-ms-shortcut",
+    "extension": "lnk",
+    "signature": [76, 0, 0, 0, 1, 20, 2, 0]
+  },
+  {
+    "mime": "application/x-tgif",
+    "extension": "obj",
+    "signature": [
+      [76, 1],
+      [128]
+    ]
+  },
+  {
+    "mime": "application/vnd.palm",
+    "extension": "pdb",
+    "signature": [
+      [77, 45, 87, 32, 80, 111, 99, 107],
+      [77, 105, 99, 114, 111, 115, 111, 102, 116, 32, 67, 47, 67, 43, 43, 32],
+      [115, 109, 95],
+      [115, 122, 101, 122],
+      [172, 237, 0, 5, 115, 114, 0, 18]
+    ]
+  },
+  {
+    "mime": "application/vnd.tcpdump.pcap",
+    "extension": ["dmp", "cap"],
+    "signature": [
+      [77, 68, 77, 80, 147, 167],
+      [80, 65, 71, 69, 68, 85],
+      [82, 84, 83, 83],
+      [88, 67, 80, 0]
+    ]
+  },
+  {
+    "mime": "application/vnd.smaf",
+    "extension": "mmf",
+    "signature": [77, 77, 77, 68, 0, 0]
+  },
+  {
+    "mime": "audio/midi",
+    "extension": ["mid", "midi", "rmi"],
+    "signature": [
+      [77, 84, 104, 100],
+      [82, 73, 70, 70]
+    ]
+  },
+  {
+    "mime": "application/vnd.rim.cod",
+    "extension": "cod",
+    "signature": [78, 97, 109, 101, 58, 32]
+  },
+  {
+    "mime": "audio/ogg",
+    "extension": ["oga", "ogg"],
+    "signature": [79, 103, 103, 83, 0, 2, 0, 0]
+  },
+  {
+    "mime": "video/ogg",
+    "extension": "ogv",
+    "signature": [79, 103, 103, 83, 0, 2, 0, 0]
+  },
+  {
+    "mime": "application/ogg",
+    "extension": "ogx",
+    "signature": [79, 103, 103, 83, 0, 2, 0, 0]
+  },
+  {
+    "mime": "image/x-portable-graymap",
+    "extension": "pgm",
+    "signature": [80, 53, 10]
+  },
+  {
+    "mime": "application/zip",
+    "extension": "zip",
+    "signature": [
+      [80, 75, 3, 4],
+      [80, 75, 3, 4],
+      [80, 75, 3, 4, 20, 0, 1, 0],
+      [80, 75, 5, 6],
+      [80, 75, 7, 8]
+    ]
+  },
+  {
+    "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "extension": "docx",
+    "signature": [
+      [80, 75, 3, 4],
+      [80, 75, 3, 4, 20, 0, 6, 0]
+    ]
+  },
+  {
+    "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "extension": "pptx",
+    "signature": [
+      [80, 75, 3, 4],
+      [80, 75, 3, 4, 20, 0, 6, 0]
+    ]
+  },
+  {
+    "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "extension": "xlsx",
+    "signature": [
+      [80, 75, 3, 4],
+      [80, 75, 3, 4, 20, 0, 6, 0]
+    ]
+  },
+  {
+    "mime": "application/vnd.google-earth.kmz",
+    "extension": "kmz",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.kde.kword",
+    "extension": "kwd",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.oasis.opendocument.text",
+    "extension": "odt",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.oasis.opendocument.presentation",
+    "extension": "odp",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.oasis.opendocument.text-template",
+    "extension": "ott",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.sun.xml.calc",
+    "extension": "sxc",
+    "signature": [
+      [80, 75, 3, 4],
+      [80, 75, 3, 4]
+    ]
+  },
+  {
+    "mime": "application/vnd.sun.xml.draw",
+    "extension": "sxd",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.sun.xml.impress",
+    "extension": "sxi",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.sun.xml.writer",
+    "extension": "sxw",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/x-msmetafile",
+    "extension": ["wmz", "wmf"],
+    "signature": [
+      [80, 75, 3, 4],
+      [215, 205, 198, 154]
+    ]
+  },
+  {
+    "mime": "application/x-xpinstall",
+    "extension": "xpi",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/vnd.ms-xpsdocument",
+    "extension": "xps",
+    "signature": [80, 75, 3, 4]
+  },
+  {
+    "mime": "application/epub+zip",
+    "extension": "epub",
+    "signature": [80, 75, 3, 4, 10, 0, 2, 0]
+  },
+  {
+    "mime": "image/x-cmx",
+    "extension": "cmx",
+    "signature": [82, 73, 70, 70]
+  },
+  {
+    "mime": "video/x-msvideo",
+    "extension": "avi",
+    "signature": [82, 73, 70, 70]
+  },
+  {
+    "mime": "audio/x-wav",
+    "extension": "wav",
+    "signature": [82, 73, 70, 70]
+  },
+  {
+    "mime": "image/webp",
+    "extension": "webp",
+    "signature": [82, 73, 70, 70]
+  },
+  {
+    "mime": "application/x-rar-compressed",
+    "extension": "rar",
+    "signature": [82, 97, 114, 33, 26, 7, 0]
+  },
+  {
+    "mime": "application/x-stuffit",
+    "extension": "sit",
+    "signature": [
+      [83, 73, 84, 33, 0],
+      [83, 116, 117, 102, 102, 73, 116, 32]
+    ]
+  },
+  {
+    "mime": "application/vnd.yamaha.smaf-phrase",
+    "extension": "spf",
+    "signature": [83, 80, 70, 73, 0]
+  },
+  {
+    "mime": "application/vnd.lotus-wordpro",
+    "extension": "lwp",
+    "signature": [87, 111, 114, 100, 80, 114, 111]
+  },
+  {
+    "mime": "application/pls+xml",
+    "extension": "pls",
+    "signature": [91, 112, 108, 97, 121, 108, 105, 115, 116, 93]
+  },
+  {
+    "mime": "audio/x-caf",
+    "extension": "caf",
+    "signature": [99, 97, 102, 102]
+  },
+  {
+    "mime": "application/x-csh",
+    "extension": "csh",
+    "signature": [99, 117, 115, 104, 0, 0, 0, 2]
+  },
+  {
+    "mime": "application/pkcs10",
+    "extension": "p10",
+    "signature": [100, 0, 0, 0]
+  },
+  {
+    "mime": "audio/x-flac",
+    "extension": "flac",
+    "signature": [102, 76, 97, 67, 0, 0, 0, 34]
+  },
+  {
+    "mime": "application/pkix-attr-cert",
+    "extension": "ac",
+    "signature": [114, 105, 102, 102]
+  },
+  {
+    "mime": "application/x-apple-diskimage",
+    "extension": "dmg",
+    "signature": [120, 1, 115, 13, 98, 98, 96]
+  },
+  {
+    "mime": "application/vnd.xara",
+    "extension": "xar",
+    "signature": [120, 97, 114, 33]
+  },
+  {
+    "mime": "application/rtf",
+    "extension": "rtf",
+    "signature": [123, 92, 114, 116, 102, 49]
+  },
+  {
+    "mime": "image/png",
+    "extension": "png",
+    "signature": [137, 80, 78, 71, 13, 10, 26, 10]
+  },
+  {
+    "mime": "application/applixware",
+    "extension": "aw",
+    "signature": [138, 1, 9, 0, 0, 0, 225, 8]
+  },
+  {
+    "mime": "application/java-vm",
+    "extension": "class",
+    "signature": [202, 254, 186, 190]
+  },
+  {
+    "mime": "application/vnd.ms-powerpoint",
+    "extension": ["pps", "ppt"],
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "application/vnd.ms-excel",
+    "extension": ["xla", "xls"],
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "audio/adpcm",
+    "extension": "adp",
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "application/vnd.lotus-approach",
+    "extension": "apr",
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "application/x-mspublisher",
+    "extension": "pub",
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "application/vnd.visio",
+    "extension": "vsd",
+    "signature": [208, 207, 17, 224, 161, 177, 26, 225]
+  },
+  {
+    "mime": "application/x-xz",
+    "extension": "xz",
+    "signature": [253, 55, 122, 88, 90, 0]
+  },
+  {
+    "mime": "application/vnd.wordperfect",
+    "extension": "wpd",
+    "signature": [255, 87, 80, 67]
+  },
+  {
+    "mime": "image/jpeg",
+    "extension": ["jpe", "jpeg", "jpg"],
+    "signature": [255, 216, 255]
+  },
+  {
+    "mime": "audio/x-aac",
+    "extension": "aac",
+    "signature": [
+      [255, 241],
+      [255, 249]
+    ]
+  }
+]
