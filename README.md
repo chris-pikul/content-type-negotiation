@@ -11,6 +11,20 @@ There are 4 different json files located in the `/bin/` folder.
 
 The files directly in `/bin/` are pretty-formatted JSON files, the original condensed versions are located in `/converter/output/`
 
+## Data Type Description
+The files `mime2ext.json` and `ext2mime.json` are pretty self-explanitory, the complicated one is `complete.json`. The novice JSON/JavaScript user should be able to figure it out instantly but in case not, heres the layout:
+
+```
+{
+    "mime": "image/jpeg",
+    "extension": ["jpe", "jpeg", "jpg"],
+    "signature": [255, 216, 255]
+}
+```
+ * mime - Always a string, every object has at least the mime-type. It is one of the requirements when converting
+ * extension - Either a string, or an array of strings, there's no order to extensions (the converter assembles this arbitrarily) so the most "popular" may not be first.
+ * signature - Always an array, but may be an array-of-arrays. The signatures represent the "magic numbers" found in a file's header. The values of the signature are base-10 and NOT hex. In the case of array-of-arrays value it's because multiple signatures could match that type.
+
 ## In Progress
  * Small JavaScript library to make sense of the lists. Should be useful for anyone having to deal with uploads/downloads and cloud systems.
  * Considering a Java library for server-side parsing
